@@ -79,7 +79,6 @@ class SearchFragment : Fragment() {
             adapter.notifyDataSetChanged()
         }
 
-        // ✨ Listen to text changes and search automatically
         searchInput.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
 
